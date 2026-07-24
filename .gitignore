@@ -4,3 +4,7 @@ shorts/
 *.txt
 !response.txt
 !requirements.txt
+.venv/
+.env
+*.log
+*.mp3

@@ -1,6 +1,8 @@
+google-generativeai
+edge-tts
+python-dotenv
+pollinations
+assemblyai
 opencv-python
-elevenlabs
-captacity
-openai
-pydub
 numpy
+pydub
