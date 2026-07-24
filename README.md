@@ -1,6 +1,6 @@
-# Shortrocity 🎬
+# ShortVideos 🎬
 
-Shortrocity is an automated, AI-driven command-line tool for generating high-quality vertical short-form videos ("shorts" or "reels") with a ChatGPT/Gemini generated script, narrated by Edge-TTS text-to-speech. Background images are generated using the Pollinations AI Flux engine, and precise word-level subtitles are hardburned via FFmpeg using AssemblyAI word timestamps.
+ShortVideos is an automated, AI-driven command-line tool for generating high-quality vertical short-form videos ("shorts" or "reels") with a ChatGPT/Gemini generated script, narrated by Edge-TTS text-to-speech. Background images are generated using the Pollinations AI Flux engine, and precise word-level subtitles are hardburned via FFmpeg using AssemblyAI word timestamps.
 
 ---
 
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Provision FFmpeg and FFprobe Binaries
-Shortrocity automatically detects if static FFmpeg/FFprobe binaries are installed inside the virtualenv's `.venv/bin` directory, pre-pending them to the execution path at runtime.
+ShortVideos automatically detects if static FFmpeg/FFprobe binaries are installed inside the virtualenv's `.venv/bin` directory, pre-pending them to the execution path at runtime.
 
 To install static binaries locally:
 - **Linux/macOS**:
@@ -91,7 +91,7 @@ ASSEMBLYAI_API_KEY=your_assemblyai_api_key_here
 
 ## 🎮 How to Operate
 
-Run Shortrocity using the main CLI entry point:
+Run ShortVideos using the main CLI entry point:
 
 ```bash
 # Activate your environment
